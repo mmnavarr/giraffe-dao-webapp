@@ -1,0 +1,47 @@
+{
+  "company": {
+    "name": "GiraffeDAO",
+    "logo": "/assets/images/logo.png"
+  },
+  "navigation": [
+    {
+      "name": "About GiraffeDAO",
+      "href": "about"
+    },
+    {
+      "name": "Collection",
+      "href": "collection"
+    }
+  ],
+  "mainHero": {
+    "title": "Giraffe",
+    "subtitle": "DAO",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "img": "/assets/images/happyTeam.jpeg"
+  },
+  "about": {
+    "title": "About Giraffe DAO",
+    "items": [
+      {
+        "title": "Believe in Solana Ecosystem",
+        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
+        "img": "/assets/images/product1.jpg"
+      },
+      {
+        "title": "Support & Collect pieces of the Ecosystem ",
+        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "img": "/assets/images/product2.jpg"
+      }
+    ]
+  },
+  "collection": {
+    "title": "Only the beginning",
+    "subtitle": "The Giraffe DAO Collection",
+    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
+  },
+  "footer": {
+    "socialMedia": {
+      "twitter": "https://twitter.com/giraffedao"
+    }
+  }
+}
