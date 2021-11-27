@@ -26,9 +26,9 @@ const NFT = ({ nft }: NFTProps) => {
       const nftMetadataResponse: NFTMetadata = await fetcher(uri);
 
       setNFTMetadata(nftMetadataResponse);
-    } catch (err) {
+    } catch (err: any) {
       setIsLoading(false);
-      setError(err);
+      setError(err as Error);
     } finally {
       setIsLoading(false);
     }
