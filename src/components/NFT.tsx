@@ -15,7 +15,6 @@ const NFT = ({ nft }: NFTProps) => {
   const [isLoading, setIsLoading] = useState<boolean>(false);
   const [error, setError] = useState<Error>();
   const [nftMetadata, setNFTMetadata] = useState<NFTMetadata>();
-  console.log('🚀 ~ file: NFT.tsx ~ line 18 ~ NFT ~ nftMetadata', nftMetadata);
 
   const fetchNftMetadata = useCallback(async () => {
     if (!uri) {
@@ -24,7 +23,7 @@ const NFT = ({ nft }: NFTProps) => {
     }
     setIsLoading(true);
     try {
-      const nftMetadataResponse = await fetcher(uri);
+      const nftMetadataResponse: NFTMetadata = await fetcher(uri);
 
       setNFTMetadata(nftMetadataResponse);
     } catch (err) {
